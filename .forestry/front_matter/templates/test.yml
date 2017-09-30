@@ -1,0 +1,14 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Label
+  name: label
+  description: Description for label
+- type: textarea
+  description: Content
+  label: Text
+  name: text
+- type: image_gallery
+  label: Image
+  name: image
