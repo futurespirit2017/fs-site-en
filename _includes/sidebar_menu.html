@@ -4,7 +4,7 @@
         MENU <span class="menu-btn"> <i class="icon-cancel"></i>  </span>
     </div>
     <ul class="mainmenu">
-        <li class="parent"><a href="#"> サービス</a>
+        <li class="parent"><a href="#">Service</a>
             <ul>
                 {% for front_page in site.pages %}
                 {% if front_page.categories == 'package-plan' %}
@@ -17,7 +17,7 @@
                 {% endfor %}
             </ul>
         </li>
-        <li class="parent"><a href="#"> 関連サービス</a>
+        <li class="parent"><a href="#">Related services</a>
             <ul>
                 {% for front_page in site.pages %}
                 {% if front_page.categories == 'package-plan' %}
@@ -30,7 +30,7 @@
                 {% endfor %}
             </ul>
         </li>
-        <li class="parent"><a href="#"> サポート</a>
+        <li class="parent"><a href="#">Support</a>
             <ul>
                             {% assign sorted_pages = (site.pages | sort: 'priority') %}
                             {% for front_page in sorted_pages %}
@@ -43,7 +43,7 @@
 
               </ul>
         </li>
-        <li class="parent"><a href="#"> 会社情報</a>
+        <li class="parent"><a href="#">Corporate information</a>
             <ul class="menu">
                             {% assign sorted_pages = (site.pages | sort: 'priority') %}
                             {% for front_page in sorted_pages %}
