@@ -4,7 +4,7 @@
         <a title="Geologix" href="{{ site.baseurl }}" id="logo" class=" logo-image" rel="home"> <span class="display-table"> <span class="table-cell"><img src="{{ 'images/active/logo.png' | prepend: site.baseurl }}" alt="Future Spirits" > </span> </span> </a>
         <div class="header-left" >
             <ul class="mainmenu-pc">
-                <li ><a href="#"> サービス</a>
+                <li ><a href="#">Service</a>
                     <ul>
                     {% for front_page in site.pages %}
                         {% if front_page.categories == 'package-plan' %}
@@ -15,7 +15,7 @@
                         {% endfor %}
                     </ul>
                 </li>
-                <li><a href="#"> サポート </a>
+                <li><a href="#">Support</a>
                    <ul>
                             {% assign sorted_pages = (site.pages | sort: 'priority') %}
                             {% for front_page in sorted_pages %}
@@ -35,8 +35,8 @@
         <div class="wrap-phone">
             <span class="phone-btn"><i class="icon-phone2"></i></span>
             <div class="phone">
-                <div class="item"><span class="title">マレーシア国内</span> <span class="number">03 2725 8015</span></div>
-                <div class="item"><span class="title">日本から</span> <span class="number">+60 3 2725 8015</span></div>
+                <div class="item"><span class="title">Calling from Malaysia</span> <span class="number">03 2725 8015</span></div>
+                <div class="item"><span class="title">Calling from outside of Malaysia</span> <span class="number">+60 3 2725 8015</span></div>
             </div>
         </div>
         {% if page.url == "/" or page.url == "/index.html" %}
@@ -45,7 +45,7 @@
         </div>
         {% else %}
         <div class="contact">
-            <a href="#"> お問合せ </a>
+            <a href="#">CONTACT</a>
         </div>
         {% endif %}
         {% if page.url != "/index.html" and  page.url != "/" %}
