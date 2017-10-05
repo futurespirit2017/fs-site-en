@@ -88,7 +88,7 @@ img { max-width: 100%; }
 .iconprev { display: block; transform: rotate(180deg); -webkit-transform: rotate(180deg); }
 
 /* #Button */
-.btn { transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; height: 50px; padding: 0 70px; position: relative; background-color: #fff; border-radius: 0; font-weight: 700; color: #333; border: 2px solid #CBCBCB; text-align: center; }
+.btn { transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; height: 50px; padding: 0 45px; position: relative; background-color: #fff; border-radius: 0; font-weight: 700; color: #333; border: 2px solid #CBCBCB; text-align: center; }
 .btn:hover { background-color: #F1F1F1; border-color: #CBCBCB; color: #333; }
 .btn:active:focus { transform: scale(0.98); -webkit-transform: scale(0.98); }
 .btn.iconright i { position: absolute; right: 0; top: 0; bottom: 0; text-align: center; width: 70px; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; }
