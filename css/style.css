@@ -1279,7 +1279,9 @@ h1 + p .btn.btn-xs.btn-outline { margin: 0 5px 10px 0; background-color: #fff !i
 /* End Mobile */
 @media (min-width: 481px) and (max-width: 767px) { /* Mobile Large */ }
 /* End Mobile Large */
-@media (max-width: 480px) { /* Mobile Small */ }
+@media (max-width: 480px) { /* Mobile Small */ 
+  .list-steps > .item .top {font-size:11px;}
+}
 /* End Mobile Small */
 .sidebar-menu ul.mainmenu li:hover > a{
     background: #4B8F00;
