@@ -168,7 +168,7 @@ ul.list-square.large li:before { top: 11px; }
 ul.list-arrow li:before { content: ">"; width: 11px; }
 
 ul.list-value li { overflow: hidden; font-weight: 700; font-size: 13px; margin: 0; padding: 10px 0; border-bottom: 1px solid #E5E5E5; }
-ul.list-value li .value { float: right; width: 100px; font-size: 17px; }
+ul.list-value li .value { float: right; width: 100px; font-size: 15px; }
 
 .menu-tabs { border-bottom: 2px solid #CBCBCB; margin: 0 0 50px; list-style: none; }
 .menu-tabs li { margin-bottom: -2px; float: left; }
