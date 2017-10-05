@@ -1067,7 +1067,8 @@ h1 + p .btn.btn-xs.btn-outline { margin: 0 5px 10px 0; background-color: #fff !i
   .h5, h5 { font-size: 15px; }
   .h6, h6 { font-size: 100%; }
   .testimonials .author .meta span { line-height: 16px; }
-  ul.list-value li .value { font-size: 15px; }
+  ul.list-value li .value { font-size: 14px; }
+  .pricingTable.no-active .item ul.list-value li .value {width: 150px;}
   .btn-lg { font-size: 24px; }
   .fs-8 { font-size: 6.4px; }
   .fs-9 { font-size: 7.2px; }
