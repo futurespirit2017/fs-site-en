@@ -1050,6 +1050,9 @@ h1 + p .btn.btn-xs.btn-outline { margin: 0 5px 10px 0; background-color: #fff !i
   body.homepage #header .menu-btn { display: table-cell; } }
 /* End All Device */
 @media (min-width: 768px) and (max-width: 1199px) { /* Tablet */ }
+@media (max-width: 768px) { /* Tablet */ 
+  .container {width: 90%;}
+}
 /* End Tablet */
 @media (min-width: 992px) and (max-width: 1199px) { /* Tablet Large */
   .pricingTable > .col1, .pricingTable > .col3 { width: 290px; }
