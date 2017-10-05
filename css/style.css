@@ -1051,7 +1051,7 @@ h1 + p .btn.btn-xs.btn-outline { margin: 0 5px 10px 0; background-color: #fff !i
 /* End All Device */
 @media (min-width: 768px) and (max-width: 1199px) { /* Tablet */ }
 @media (max-width: 768px) { /* Tablet */ 
-  .container {width: 90%;}
+  .container {width: 93%;}
 }
 /* End Tablet */
 @media (min-width: 992px) and (max-width: 1199px) { /* Tablet Large */
