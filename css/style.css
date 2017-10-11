@@ -157,7 +157,7 @@ textarea.input-box { min-height: 100px; padding: 20px; }
 .overlay-grid > div { position: relative; z-index: 2; }
 
 ul[class*="list-"] { list-style: none; text-align: left; font-weight: 400; }
-ul[class*="list-"] li { position: relative; margin-bottom: 4px; }
+ul[class*="list-"] li { position: relative; margin-bottom: 0px; }
 ul[class*="list-"] li:before { margin-right: 12px; display: inline-block; }
 
 ul.list-square li { padding-left: 20px; }
