@@ -30,7 +30,7 @@ theme: minima
 
 # Paginate
 paginate: 2
-paginate_path: /page:num/
+paginate_path: "/page:num/"
 
 # Build settings
 gems:
