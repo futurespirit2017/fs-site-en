@@ -16,7 +16,7 @@ tag: faq_cate_detail
 <div class="accordion-faq accordion-group" id="accordion" role="tablist" aria-multiselectable="true">
     {% assign counter = 0 %}
     {% for post in site.posts %}
-    {% if post.categories contains 'about-other-service' %}
+    {% if post.categories contains 'faq-other-service' %}
     {% assign counter = counter | plus: 1 %}
 
     <div class="panel">
