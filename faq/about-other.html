@@ -9,14 +9,14 @@ tag: faq_cate_detail
     FAQ
 </h1>
 <ul class="list-square large">
-    <li class="fs-22">About other services</li>
+    <li class="fs-22">Others</li>
 </ul>
 
 
 <div class="accordion-faq accordion-group" id="accordion" role="tablist" aria-multiselectable="true">
     {% assign counter = 0 %}
     {% for post in site.posts %}
-    {% if post.categories contains 'about-other-service' %}
+    {% if post.categories contains 'others' %}
     {% assign counter = counter | plus: 1 %}
 
     <div class="panel">
