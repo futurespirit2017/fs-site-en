@@ -42,9 +42,13 @@ tag: faq_cate_detail
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="prev"><i class="icon-arrow-1"></i> PRV </a>
+    {% else %}
+    <a href="#" class="prev"><i class="icon-arrow-1"></i> PRV </a>
   {% endif %}
-   {% if paginator.next_page %}
+  
+  {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next"> NXT <i class="icon-arrow-1"></i>  </a>
+    {% else %}
+    <a href="#" class="next"> NXT <i class="icon-arrow-1"></i>  </a>
   {% endif %}
 </div>
-
