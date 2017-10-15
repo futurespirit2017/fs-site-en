@@ -9,14 +9,14 @@ tag: faq_cate_detail
     FAQ
 </h1>
 <ul class="list-square large">
-    <li class="fs-22">About Domain, SSL Certificates </li>
+    <li class="fs-22">About us</li>
 </ul>
 
 
 <div class="accordion-faq accordion-group" id="accordion" role="tablist" aria-multiselectable="true">
     {% assign counter = 0 %}
     {% for post in site.posts %}
-    {% if post.categories contains 'about-domain-SSL' %}
+    {% if post.categories contains 'about-us' %}
     {% assign counter = counter | plus: 1 %}
 
     <div class="panel">
