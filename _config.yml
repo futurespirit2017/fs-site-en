@@ -35,7 +35,6 @@ paginate_path: "/page:num/"
 # Build settings
 gems:
   - jekyll-paginate
-  - jekyll-sitemap
 
 exclude:
   - Gemfile
