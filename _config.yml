@@ -28,6 +28,15 @@ github_username:
 markdown: kramdown
 theme: minima
 
+# Paginate
+paginate: 10
+paginate_path: /page:num/
+
+# Build settings
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
 exclude:
   - Gemfile
   - Gemfile.lock
