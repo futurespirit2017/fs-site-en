@@ -191,7 +191,7 @@ PING monitoring.</h3>
                                 {% for post in site.posts %}
                                 {% if post.categories contains 'notice' %}
                                 <div class="item">
-                                    <a href="/faq/news-anouncement.html#accordion-{{ counter }}">
+                                    <a href="/news.html#accordion-{{ counter }}">
                                         <span class="date">{{ post.date | date: "%Y/%m/%d" }}　</span>
                                         <span class="name"> {{ post.title }} </span>
                                     </a>
@@ -204,7 +204,7 @@ PING monitoring.</h3>
                                 {% endfor %}
 
                                 <div class="text-center pt-30">
-                                    <a href="{{ site.base }}faq/news-anouncement.html" class="btn btn-grey   ">
+                                    <a href="{{ site.base }}news.html" class="btn btn-grey   ">
                                         <i class="icon-arrow-1"></i> &nbsp; more
                                     </a>
                                 </div>
@@ -217,7 +217,7 @@ PING monitoring.</h3>
                                 {% for post in site.posts %}
                                 {% if post.categories contains 'error' %}
                                 <div class="item">
-                                    <a href="/faq/news-maintenance.html#accordion-{{ counter }}">
+                                    <a href="information.html#accordion-{{ counter }}">
                                         <span class="date">{{ post.date | date: "%Y/%m/%d" }}　</span>
                                         <span class="name"> {{ post.title }} </span>
                                     </a>
@@ -229,7 +229,7 @@ PING monitoring.</h3>
                                 {% endif %}
                                 {% endfor %}
                                 <div class="text-center pt-30">
-                                    <a href="{{ site.base }}faq/news-maintenance.html" class="btn btn-grey   ">
+                                    <a href="{{ site.base }}information.html" class="btn btn-grey   ">
                                         <i class="icon-arrow-1"></i> &nbsp; more
                                     </a>
                                 </div>
