@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "マレーシア国内に日本人スタッフ・日本語は話せるスタッフはいますか？"
+title: "Under Construction"
 date: 2016-12-05 00:00:00 +0000
-categories: faq-other-service
+categories: faq-others
 ---
-日本のデータセンターを用いるのと比べて、利用中のスピードがずっと速く快適です。日本と比べるとマレーシ アの通信速度は遅いため、日本のデータセンター内のシステムを利用する場合、通信回線の状況によっては非常 にストレスがかかることがあります。
+Under Construction<br>
+準備中です。お待ちください。
