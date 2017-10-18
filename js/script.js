@@ -40,12 +40,13 @@
 		});			
 
 
+        //equalHeight
+        if ($(".management-tab .menu-tabs .images").length > 0) {
+          $('.management-tab .menu-tabs .images').imagesLoaded(function () {
+            equalHeight(".management-tab .menu-tabs .images", 0);
+          });
 
-
-	    // Min Height
-		if ($(".management-tab .menu-tabs .images").length > 0) {
-		    equalHeight(".management-tab .menu-tabs .images", 0); 
-		}
+        }
 
 
 	    // Min Height
