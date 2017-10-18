@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Under Construction"
-date: 2017-10-02 00:00:00 +0700
+date: 2017-10-02  00:00:00 +0000
 categories: faq-about-us
 ---
 Under Construction<br>
